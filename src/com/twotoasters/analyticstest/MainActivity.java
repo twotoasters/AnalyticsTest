@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
         ((TextView) findViewById(R.id.text_view_medium)).setText(getString(R.string.medium, CampaignHelper.getMedium()));
         ((TextView) findViewById(R.id.text_view_term)).setText(getString(R.string.term, CampaignHelper.getTerm()));
         ((TextView) findViewById(R.id.text_view_content)).setText(getString(R.string.content, CampaignHelper.getContent()));
-        ((TextView) findViewById(R.id.text_view_campaign)).setText(getString(R.string.campaign, CampaignHelper.getCampain()));
+        ((TextView) findViewById(R.id.text_view_campaign)).setText(getString(R.string.campaign, CampaignHelper.getCampaign()));
     }
 
     private SharedPreferences getPrefs() {
